@@ -1,0 +1,97 @@
+%% 明石研究室修士論文テンプレート
+
+\documentclass[a4paper,12pt,titlepage]{jarticle}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{color}
+\usepackage{amsmath,amssymb,bm}
+\usepackage{wrapfig}
+\usepackage{url}
+\usepackage{afterpage}
+\usepackage{ascmac}
+\usepackage{array}
+\usepackage{geometry}
+\usepackage{emathC}
+\usepackage{itembkbx}
+\usepackage{itembbox}
+\usepackage{eclbkbox}
+\usepackage{here}
+\usepackage{listings, jlisting}
+\usepackage{comment}
+
+\renewcommand{\lstlistingname}{リスト}
+\lstset{language=c,
+  basicstyle=\ttfamily\scriptsize,
+  commentstyle=\textit,
+  classoffset=1,
+  keywordstyle=\bfseries,
+  frame=tRBl,
+  framesep=5pt,
+  showstringspaces=false,
+  numbers=left,
+  stepnumber=1,
+  numberstyle=\tiny,
+  tabsize=2
+}
+\geometry{top=2.5cm,bottom=2.5cm,left=3.1cm,right=3.1cm}
+  \makeatletter
+  \newcommand{\subsubsubsection}{\@startsection{paragraph}{4}{\z@}%
+    {1.0\Cvs \@plus.5\Cdp \@minus.2\Cdp}%
+    {.1\Cvs \@plus.3\Cdp}%
+    {\reset@font\sffamily\normalsize}
+  }
+  \makeatother
+  \setcounter{secnumdepth}{4}
+
+
+
+% 表紙情報
+\title{
+{\Large 平成27年度　東京理科大学大学院　修士論文 \\[3cm]}
+{\Huge レーザー光を用いた\\ハンドジェスチャーの\\拡張現実への応用 \\[3cm]}
+{\Large 東京理科大学大学院　理工学研究科　情報科学専攻　\\
+明石研究室　修士課程2年\\[2cm]}
+}
+\author{学籍番号　6313640 \\
+渡部 祐太}
+\date{}
+
+
+
+\begin{document}
+% 表紙
+\maketitle
+% 目次
+\tableofcontents
+
+
+
+% 本文
+\newpage
+\input{./section1.tex}	% 序論
+\newpage
+\input{./section2.tex}	% 関連用語
+\newpage
+\input{./section3.tex}	% 研究概要
+\newpage
+\input{./section4.tex}	% アルゴリズム
+\newpage
+\input{./section5.tex}	% 実装
+\newpage
+\input{./section6.tex}	% 実験
+\newpage
+\input{./section7.tex}	% 総括
+\newpage
+\input{./section8.tex}	% 謝辞
+\newpage
+
+% 参考文献
+%\input{./bibliography.tex}
+%\newpage
+
+% 付録
+%\input{./appendix.tex}
+%\newpage
+
+\end{document}
+
+

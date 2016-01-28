@@ -1,7 +1,0 @@
-% 参考文献
-\begin{thebibliography}{9}
-\bibitem{タグ1}
-山口史人, 石田慎一, 西宏章, ネットワークアプリケーションにおけるハードウェアハッシュの有用性検証, 研究報告計算機アーキテクチャ, AN10096105, 2013.
-\bibitem{タグ2}
-ハッシュ関数ベンチマーク, http://d.hatena.ne.jp/tullio/20120630/1341082502
-\end{thebibliography}

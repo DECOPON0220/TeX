@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.sjis) (TeX Live 2015/W32TeX) (preloaded format=platex 2016.1.23)  28 JAN 2016 13:58
+This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.sjis) (TeX Live 2015/W32TeX) (preloaded format=platex 2016.1.23)  2 FEB 2016 06:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -310,7 +310,38 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 (c:/texlive/2015/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-) (./master.aux)
+) (./master.aux
+
+LaTeX Warning: Label `fig:one' multiply defined.
+
+
+LaTeX Warning: Label `fig:two' multiply defined.
+
+
+LaTeX Warning: Label `fig:one' multiply defined.
+
+
+LaTeX Warning: Label `fig:two' multiply defined.
+
+
+LaTeX Warning: Label `fig:one' multiply defined.
+
+
+LaTeX Warning: Label `fig:two' multiply defined.
+
+
+LaTeX Warning: Label `fig:one' multiply defined.
+
+
+LaTeX Warning: Label `fig:two' multiply defined.
+
+
+LaTeX Warning: Label `fig:one' multiply defined.
+
+
+LaTeX Warning: Label `fig:two' multiply defined.
+
+)
 \openout1 = `master.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
@@ -395,16 +426,119 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 5.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 5.
-) [2] (./section2.tex) [3] (./section3.tex) [4]
-(./section4.tex) [5] (./section5.tex) [6] (./section6.tex) [7] (./section7.tex)
-[8] (./section8.tex) [9] (./master.aux) ) 
+) [2] (./section3.tex
+File: wn_inside.eps Graphic file (type eps)
+ <wn_inside.eps>
+File: wn_outside.eps Graphic file (type eps)
+ <wn_outside.eps>
+[3]
+File: iedecision_2d.eps Graphic file (type eps)
+ <iedecision_2d.eps>) [4] [5] (./section4.tex
+File: RazerDevice_image.eps Graphic file (type eps)
+ <RazerDevice_image.eps>
+File: RazerDevice_getInfo.eps Graphic file (type eps)
+
+<RazerDevice_getInfo.eps> [6]
+File: RazerDevice_real_color.eps Graphic file (type eps)
+ <RazerDevice_real_color.eps> [7]
+File: Simulator_image.eps Graphic file (type eps)
+
+<Simulator_image.eps>
+File: Simulator_getInfo.eps Graphic file (type eps)
+ <Simulator_getInfo.eps> [8]
+File: Simulator_real_color.eps Graphic file (type eps)
+ <Simulator_real_color.eps>)
+[9] (./section5.tex
+File: Simulator_getPic.eps Graphic file (type eps)
+ <Simulator_getPic.eps>
+File: Simulator_hsv.eps Graphic file (type eps)
+ <Simulator_hsv.eps>
+Overfull \hbox (14.15767pt too wide) in paragraph at lines 21--35
+[]$[]$ $[]$ 
+ []
+
+[10]
+File: Simulator_grid.eps Graphic file (type eps)
+ <Simulator_grid.eps>
+File: Simulator_data.eps Graphic file (type eps)
+ <Simulator_data.eps> [11]
+File: Simulator_data_h.eps Graphic file (type eps)
+ <Simulator_data_h.eps>
+File: Simulator_data_v.eps Graphic file (type eps)
+
+<Simulator_data_v.eps>
+Overfull \hbox (14.15767pt too wide) in paragraph at lines 60--74
+[]$[]$ $[]$ 
+ []
+
+File: Simulator_data_3d.eps Graphic file (type eps)
+<Simulator_data_3d.eps> [12]
+File: hidarimawari_vec.eps Graphic file (type eps)
+ <hidarimawari_vec.eps> [13]
+File: migimawari_vec.eps Graphic file (type eps)
+ <migimawari_vec.eps>
+File: sen_vec.eps Graphic file (type eps)
+
+<sen_vec.eps> [14]
+File: Cross_result.eps Graphic file (type eps)
+ <Cross_result.eps> [15]
+File: Cauchy_result.eps Graphic file (type eps)
+ <Cauchy_result.eps>
+File: Cross-Cauchy_result.eps Graphic file (type eps)
+
+<Cross-Cauchy_result.eps> [16]) [17] (./section7.tex
+File: 3d_obje_2.eps Graphic file (type eps)
+ <3d_obje_2.eps>
+File: 3d_obje_1.eps Graphic file (type eps)
+
+<3d_obje_1.eps>
+Overfull \hbox (14.15767pt too wide) in paragraph at lines 27--41
+[]$[]$ $[]$ 
+ []
+
+File: IED3D_2.eps Graphic file (type eps)
+<IED3D_2.eps>
+File: IED3D_1.eps Graphic file (type eps)
+ <IED3D_1.eps>
+Overfull \hbox (14.15767pt too wide) in paragraph at lines 45--59
+[]$[]$ $[]$ 
+ []
+
+[18]
+File: 3D_obje_insert_1.eps Graphic file (type eps)
+ <3D_obje_insert_1.eps>
+File: 3D_obje_insert_2.eps Graphic file (type eps)
+ <3D_obje_insert_2.eps>
+Overfull \hbox (14.15767pt too wide) in paragraph at lines 63--77
+[]$[]$ $[]$ 
+ []
+
+File: temae_1.eps Graphic file (type eps)
+<temae_1.eps>
+File: temae_2.eps Graphic file (type eps)
+ <temae_2.eps>
+Overfull \hbox (14.15767pt too wide) in paragraph at lines 81--95
+[]$[]$ $[]$ 
+ []
+
+[19]) [20] (./section8.tex) [21] [22] (./bibliography.tex
+Underfull \hbox (badness 10000) in paragraph at lines 9--11
+[]\OT1/cmr/m/n/12 Inclusion of a Point in a Poly-gon - Ge-om-e-try Al-go-rithms
+,
+ []
+
+) [23] (./master.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 4717 strings out of 493742
- 61023 string characters out of 6154161
- 171159 words of memory out of 5000000
- 8116 multiletter control sequences out of 15000+600000
+ 4780 strings out of 493742
+ 62102 string characters out of 6154161
+ 172159 words of memory out of 5000000
+ 8152 multiletter control sequences out of 15000+600000
  23893 words of font info for 93 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 27i,6n,49p,1293b,228s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 27i,7n,49p,1293b,271s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on master.dvi (10 pages, 17620 bytes).
+Output written on master.dvi (24 pages, 58228 bytes).
